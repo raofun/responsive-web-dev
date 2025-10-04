@@ -298,9 +298,15 @@ footer textarea {
     .skills-container,
     .resume-container,
     footer,
-    .about-items {
+    .about-items,
+    .banner,
+    nav,
+    nav>ul {
         /* background-color: rgb(221, 164, 164); */
         flex-direction: column;
+    }
+    nav>ul{
+        gap: 20px;
     }
 
     footer, .about,
@@ -318,5 +324,14 @@ footer textarea {
     .about-items {
         width: calc(100% - 40px);
     }
-    
+    .banner{
+        margin: 0 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-profile-pic {
+        width: 100%;
+        
+    }
 }
